@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhiviya Lakshime C - Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f2f2f2, #e6f7ff);
+            color: #333;
+            overflow-x: hidden;
+        }
+        /* Navigation Bar */
+        nav {
+            background-color: #692e7b;
+            padding: 10px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1em;
+        }
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 100px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        h1 {
+            text-align: center;
+            color: #0073e6;
+            margin-bottom: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            color: #0073e6;
+            margin-bottom: 8px;
+        }
+        p, ul {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        .profile-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .profile-links a {
+            margin: 0 10px;
+            color: #0073e6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .profile-links a:hover {
+            color: #ffd700;
+        }
+        /* Smooth Scroll Styling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Responsive */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#internship">Internship</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+        </ul>
+    </nav>
+
+    <!-- Portfolio Content -->
+    <div class="container">
+        <!-- About Me Section -->
+        <section id="about" class="section">
+            <h1>Dhiviya Lakshime C</h1>
+            <p>Hello! I am Dhiviya Lakshime, a Computer Science Engineering student at Sri Eshwar College of Engineering. Passionate about technology and public speaking, I am exploring the field of product management. I have completed various certifications and internships in tech, gaining hands-on experience in web development and programming.</p>
+            <div class="profile-links">
+                <a href="https://github.com/Dhiviyapraveen/portfolio/tree/main" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/dhiviyachandrasekaran/" target="_blank">LinkedIn</a> |
+                <a href="mailto:dhiviyalakshime.c2023cse@sece.ac.in">Email</a>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li><strong>B.E(CSE)</strong> - Sri Eshwar College of Engineering (2023 - 2027)</li>
+                <li><strong>HSC</strong> - Vidya Mandir Senior Secondary School | 71.8% (2021-2023)</li>
+                <li><strong>SSLC</strong> - Vidya Mandir Senior Secondary School | 80% (2020-2021)</li>
+            </ul>
+        </section>
+
+        <!-- Internship Section -->
+        <section id="internship" class="section">
+            <h2 class="section-title">Internship</h2>
+            <p><strong>Octanet</strong> - Worked as a web development intern, applying theoretical knowledge to real-world scenarios and enhancing my skills (March 2024).</p>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <h2 class="section-title">Certifications</h2>
+            <ul>
+                <li>Master the C Language - Udemy</li>
+                <li>C++ Certification - Udemy</li>
+                <li>Python Programming - Udemy</li>
+                <li>AI Certification - Udemy</li>
+                <li>ML Certification - Infosys</li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> C, Python, HTML, CSS, JavaScript</li>
+                <li><strong>Core:</strong> Data Structures, OOP</li>
+                <li><strong>Query Language:</strong> SQL</li>
+                <li><strong>Tools:</strong> VS Code, Blender, Canva, GitHub, Replit</li>
+            </ul>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <h2 class="section-title">Programming Achievements</h2>
+            <ul>
+                <li><a href="https://leetcode.com/dhiviya_c/" target="_blank">Leetcode - Rank: 5,000,000</a></li>
+                <li><a href="https://www.codechef.com/users/dhiviya_c" target="_blank">Codechef - Rating: 1008, Solved 100+ problems</a></li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
+
